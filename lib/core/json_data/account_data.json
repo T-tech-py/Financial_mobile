@@ -1,0 +1,27 @@
+
+{
+    "status": "success",
+    "message": "data fatched successfuly",
+    "payload": {
+        "id": 1,
+        "accountBalance":"10.713.95",
+        "card":[
+            {
+                "id":1,
+                "cardName": "Apple Inc",
+                "cardMaker": "AAPL",
+                "cardBalance": "7.213.05",
+                "cardInterest": "50.235",
+                "cardInterestRate":"5.25"
+            },
+            {
+                "id":2,
+                "cardName": "Joyex c",
+                "cardMaker": "PIX",
+                "cardBalance": "2.715.02",
+                "cardInterest": "25.185",
+                "cardInterestRate":"15.02"
+            }
+        ]
+        }
+}
