@@ -1,8 +1,4 @@
 import 'package:equatable/equatable.dart';
-import 'dart:convert';
-// class UserAccountDataEntity extends Equatable{
-//   final String
-// }
 
 class UserAccountDataEntity extends Equatable {
   const UserAccountDataEntity({

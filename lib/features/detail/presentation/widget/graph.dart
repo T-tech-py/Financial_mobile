@@ -4,7 +4,7 @@ import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
 class LineCharts extends StatelessWidget {
-  const LineCharts({required this.isShowingMainData});
+  const LineCharts({super.key, required this.isShowingMainData});
 
   final bool isShowingMainData;
 

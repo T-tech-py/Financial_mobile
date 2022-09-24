@@ -16,6 +16,6 @@ extension CustomThemeContext on BuildContext {
         fontFamily: 'Poppins',
         visualDensity: VisualDensity.adaptivePlatformDensity,
         scaffoldBackgroundColor: darkBackgroundColor,
-        textTheme: TextTheme().copyWith(),
+        textTheme: const TextTheme().copyWith(),
       );
 }

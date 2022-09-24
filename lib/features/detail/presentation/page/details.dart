@@ -45,14 +45,15 @@ class CardDetailsScreen extends StatelessWidget {
             child: Container(
               width: double.infinity,
               decoration: BoxDecoration(
-                  color: Color(0xff262626), borderRadius: customTopRadius(30)),
+                  color: const Color(0xff262626),
+                  borderRadius: customTopRadius(30)),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   ySize(32),
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 24.w),
-                    child: DateDropdownWidget(),
+                    child: const DateDropdownWidget(),
                   ),
                   const Expanded(child: LineCharts(isShowingMainData: false)),
                   ySize(32),
@@ -61,7 +62,7 @@ class CardDetailsScreen extends StatelessWidget {
                     padding: EdgeInsets.only(left: 24.w),
                     decoration: BoxDecoration(
                         borderRadius: customTopRadius(30),
-                        color: Color(0xff303030)),
+                        color: const Color(0xff303030)),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -69,7 +70,7 @@ class CardDetailsScreen extends StatelessWidget {
                         Text(
                           "Available for buying",
                           style: textStyle14White400.copyWith(
-                              color: Color(0xff9B9B9B)),
+                              color: const Color(0xff9B9B9B)),
                         ),
                         ySize(8),
                         Row(
