@@ -15,18 +15,36 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  # Font management package
   google_fonts: ^2.1.0
+  # Design responsivness package
   flutter_screenutil:
+  # Svg rendering packge 
   flutter_svg: ^1.1.5
+  # Fancy slider button package
   slider_button: ^2.0.0
+  # Checking  and Setting value equality package
   equatable: ^2.0.5
+  # Graph package
   fl_chart: ^0.55.2
+  # Loader package
+  flutter_spinkit: ^5.1.0
+  # Functionnal programming thingies
+  dartz: ^0.10.1
+  # Local Storage and Caching Package
+  hive: ^2.2.3
+  # Statemanagement package
+  flutter_bloc: ^8.1.1
+  # Service locator
+  get_it: ^7.2.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^2.0.0
+  # Mocking api for test
+  mockito: ^5.3.2
 
 flutter:
 
